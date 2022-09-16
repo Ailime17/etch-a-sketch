@@ -1,0 +1,90 @@
+html {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("table.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.container {
+    background-color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.change_button {
+    box-shadow: 0 5px 30px #0400ff;
+    background-color: #0400ffa1;
+    padding: 8px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+#colors_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    height: 80px;
+    width: 350px;
+    margin-bottom: 120px;
+    background-image: url("wood.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    border-radius: 35px;
+
+}
+
+.colors {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.colors.r { 
+    background-color: red;
+}
+.colors.o {
+    background-color: orange;
+}
+.colors.y {
+    background-color: yellow;
+}
+.colors.g {
+    background-color: green;
+}
+.colors.b {
+    background-color: blue;
+}
+.colors.i {
+    background-color: indigo;
+}
+.colors.v {
+    background-color: violet;
+}
+
+.colors.w {
+    font-weight: bold;
+}
